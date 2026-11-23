@@ -3,6 +3,7 @@
 This repository holds the code for an MSc Energy Systems dissertation (University of Oxford). It tests whether domestic heat pumps (HPs) and home electric vehicle (EV) charging can be detected from half-hourly household electricity consumption, plus outdoor temperature for HPs, when the available labels are incomplete.
 
 GB records of HPs and EV charger installations cover only part of the installed base, so a detector has to learn from a set of known positives and an unlabelled pool that hides further positives. This is the positive-unlabelled (PU) setting.
+
 The code:
 
 - builds two labelled GB datasets by superposition: the metered load of a real HP (Electrification of Heat) or
@@ -17,7 +18,7 @@ The code:
 
 | Technology | Setting | PU-bagged XGBoost | Naive XGBoost | Rule-based detector |
 |---|---|---|---|---|
-| Heat pumps (household, one year) | 2% contamination, 2% prevalence | F1 0.723 ± 0.023 | 0.538 | - |
+| Heat pumps (household, one year) | 2% contamination, 2% prevalence | F1 0.675 ± 0.048 | 0.516 | - |
 | EV charging (21-day segment) | 5% contamination, 5% prevalence | F1 0.753 ± 0.022 | 0.689 | 0.388 |
 
 ± is the spread over five runs. All results are on constructed data, not on real owners.
@@ -61,7 +62,7 @@ Data/
 │   ├── consumption_n.csv          # arm N (standard tariff), half-hourly kWh
 │   ├── consumption_d.csv          # arm D (dynamic time-of-use tariff), half-hourly kWh
 │   ├── survey_answers.csv         # appliance survey
-│   └── survey_questions.csv.      # note this is out of order by 1 compared to the answers
+│   └── survey_questions.csv       # note this is out of order by 1 compared to the answers
 ├── EoH/
 │   ├── eoh_cleaned_half_hourly.csv                     # half-hourly heat-pump readings
 │   └── 9bbf3b4f-5b33-4652-b385-d69ba68004d0.csv        # installation record
@@ -124,8 +125,8 @@ Random seeds are fixed (test split seed 42; runs use seeds 0–4), so reruns rep
 | `cache/` | Cached tables from notebooks 01–03 | No (derived from licensed data) |
 | `LCL_EoH_join_v6/` | Constructed heat-pump dataset (training set and `transfer_armD_ovo/`), build log, leak audit | No |
 | `LCL_EN_join_v2/` | Constructed EV dataset, build log, leakage audits | No |
-| `HP_classifier/` | Exported heat-pump classifiers `hp_pu_classifier_alpha2_seed0.json` to `seed4.json`, from notebook 06 | No (about 45 MB each) |
-| `EV_classifier/` | Exported EV classifiers `ev_pu_classifier_alpha5_seed0.json` to `seed4.json`, from notebook 07 | No (about 45–70 MB each) |
+| `HP_classifier/` | Exported heat-pump classifiers `hp_pu_classifier_alpha2_seed0.json` to `seed4.json`, from notebook 06 | No (about 40–55 MB each) |
+| `EV_classifier/` | Exported EV classifiers `ev_pu_classifier_alpha5_seed0.json` to `seed4.json`, from notebook 07 | No (about 40–70 MB each) |
 | `figures/` | Figures, as PNG | Yes |
 | `tables/` | Tables, as CSV | Yes |
 
