@@ -1,0 +1,9 @@
+phase,daytype,sessions,median_start,pct_1800_2100,pct_overnight
+T1 control,Weekday,456,15.75,0.246,0.298
+T1 control,Weekend,130,12.25,0.154,0.254
+T1 demand management,Weekday,43973,15.5,0.218,0.225
+T1 demand management,Weekend,14378,13.783,0.157,0.202
+T2 priority-charging app,Weekday,26900,16.5,0.254,0.223
+T2 priority-charging app,Weekend,9305,14.5,0.183,0.214
+T3 time-of-use tariff,Weekday,15011,16.5,0.196,0.316
+T3 time-of-use tariff,Weekend,5128,15.0,0.143,0.296

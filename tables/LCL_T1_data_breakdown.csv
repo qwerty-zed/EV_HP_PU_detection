@@ -1,0 +1,11 @@
+,Arm N,Arm D,Both
+Households metered,4173,1025,5198
+"  pass quality filters (>= 200 complete days, >= 0.05 kWh/day)",4157,1025,5182
+  ...with a usable 2013 winter/summer ratio,4019,1022,5041
+Answered the appliance survey,1842,928,2770
+  ...heating type classified (not Unknown),1613,792,2405
+  ...dwelling type recorded,1679,848,2527
+Gas homes (eligible to host a heat pump),1332,652,1984
+  ...and pass quality filters,1330,652,1982
+Median complete days per household,647,650,647
+Suspected EV owners (pass quality filters),7,1,8

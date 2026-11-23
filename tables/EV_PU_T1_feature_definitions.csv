@@ -1,0 +1,21 @@
+Feature,Group,Definition,"Median, EV","Median, no EV"
+avg_daily_kwh,Level and variability,Mean daily kWh,14.2,8.08
+cv_daily_kwh,Level and variability,Standard deviation of daily kWh divided by its mean,0.448,0.22
+sigma2_delta,Level and variability,Variance of the change between consecutive half-hourly readings,0.0965,0.0193
+rho_48,Level and variability,Correlation of each half-hourly reading with the same half-hour on the previous day,0.164,0.281
+s_peak,Level and variability,98th percentile of half-hourly kWh divided by the median (plus 0.001 kWh),15,5.24
+night_share,Time of day and week,Share of kWh used 00:00–07:00,0.16,0.176
+am_peak_share,Time of day and week,Share of kWh used 06:00–09:00,0.0855,0.116
+pm_peak_share,Time of day and week,Share of kWh used 16:00–20:00,0.237,0.235
+late_evening_share,Time of day and week,Share of kWh used 20:00–24:00,0.218,0.192
+weekend_ratio,Time of day and week,Mean weekend daily kWh divided by mean weekday daily kWh,0.975,1.04
+q99_hh,High-power load,99th percentile of half-hourly kWh,2.15,0.828
+high_energy_share,High-power load,Share of kWh in half-hours above 1.25 kWh (2.5 kW),0.402,0.00957
+longest_run_1p25,High-power load,"Longest run of half-hours above 1.25 kWh in a day, mean of the 3 highest days",5.67,0.333
+max_step_up,High-power load,"Largest rise between consecutive half-hours in a day, mean of the 3 highest days",1.83,0.868
+plateau_flatness,High-power load,"Mean of a day's half-hours above 1.25 kWh divided by their maximum (0 when none), mean of the 3 highest days",0.987,0.333
+event_rate_weekday,Suspected charging events,Share of weekdays with a suspected charging event,0.4,0
+event_rate_weekend,Suspected charging events,Share of weekend days with a suspected charging event,0.333,0
+event_kwh_per_week,Suspected charging events,"Energy above the reference profile inside events, per week",27.3,0
+event_hours_median,Suspected charging events,"Median over event days of the day's longest event, in hours",2,1
+onset_concentration,Suspected charging events,"How tightly event start times cluster at one time of day (0 = spread out, 1 = always the same half-hour)",0.717,0.729

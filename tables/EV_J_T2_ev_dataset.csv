@@ -1,0 +1,24 @@
+EV_J_T2  LCL_EN_join_v2,Training,Test,All
+Segments,"3,984","3,940",
+  with an EV (positives),984,394,"1,378"
+    T1 control,20,8,28 of 32 able to supply 21 days
+    T1 demand management,325,134,459 of 463 able to supply 21 days
+    T2 priority-charging app,339,134,473 of 489 able to supply 21 days
+    T3 time-of-use tariff,300,118,418 of 451 able to supply 21 days
+    CrowdCharge,427,207,
+    GreenFlux,557,187,
+    3.5 kW class,490,197,
+    7 kW class,494,197,
+  without an EV (negatives),"3,000","3,546",
+  prevalence,-,10.0%,
+Chargers,375,160,
+Host households (one segment each),984,394,
+  of which suspected EV owners,0,0,
+Donor households,"1,274","1,505",
+"  windows per donor, mean (max)",2.35 (3),2.36 (3),
+"Added EV energy per segment, median kWh",101,105,
+"Charging days per segment, median",10,10,
+EV half-hours shifted one hour (clock),,,50.6%
+EV energy dropped (edge or missing host),0.2%,0.2%,
+Metadata-only audit ROC-AUC,,,0.501
+Host-own-load audit ROC-AUC,,,0.501

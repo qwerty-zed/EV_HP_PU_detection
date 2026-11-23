@@ -1,0 +1,21 @@
+Feature,Group,Definition,"Median, heat pump","Median, no heat pump"
+r_hdd,Temperature response,"Pearson correlation of daily kWh with heating degree-days (base 15.5 °C), over all days",0.855,0.327
+beta_temp,Temperature response,"Least-squares slope of daily kWh on daily mean temperature, over days below 15 °C (kWh per °C; negative when use rises in the cold)",-1.6,-0.122
+delta_cold,Temperature response,Mean daily kWh on the household's coldest 5% of winter days minus its winter mean daily kWh,9.29,0.37
+cov_t_x,Temperature response,"Covariance of half-hourly kWh with half-hourly temperature, over winter readings (population covariance)",-0.306,0.0156
+consumption_per_hdd,Temperature response,Total kWh on days with any heating demand divided by total heating degree-days,2.71,1.07
+r_ws,Seasonal level,Winter mean daily kWh divided by summer mean daily kWh,2.84,1.3
+avg_daily_kwh,Seasonal level,Mean daily kWh over all days,18.9,8.11
+winter_avg_kwh,Seasonal level,"Mean daily kWh over winter days (Dec, Jan, Feb)",28,9.25
+summer_avg_kwh,Seasonal level,"Mean daily kWh over summer days (Jun, Jul, Aug)",9.72,6.81
+base_night,Seasonal level,10th percentile of half-hourly kWh at 00:30–05:00 in winter minus the same in summer,0.011,-0.0019
+am_peak_share,Time of day,Share of winter kWh used 06:00–09:00,0.139,0.104
+pm_peak_share,Time of day,Share of winter kWh used 16:00–20:00,0.221,0.244
+night_share,Time of day,"Share of all kWh used 00:00–07:00, over the whole year",0.229,0.176
+d_midday,Time of day,Summer mean kWh in the half-hours 07:30–08:00 and 20:30–21:00 minus summer mean kWh 11:30–14:00,0.0421,0.0243
+base_summer,Time of day,5th percentile of half-hourly kWh at 09:30–16:00 in summer,0.0605,0.043
+sigma2_delta,Variability,Variance of the change between consecutive winter half-hourly readings,0.163,0.0243
+s_winter,Variability,98th percentile of winter half-hourly kWh divided by the winter median (plus 0.001 kWh),3.8,5.47
+rho_48,Variability,"Correlation of each half-hourly reading with the reading 48 places earlier (the same half-hour on the previous day), over the whole year",0.417,0.331
+cv_daily_kwh,Variability,Standard deviation of daily kWh divided by its mean,0.519,0.32
+f_zero,Variability,Share of half-hourly readings at or below 0.005 kWh,0,0

@@ -1,0 +1,5 @@
+,Charger-days,Mean kWh per charger-day
+T1 control,1205,5.12
+T1 demand management,85177,5.29
+T2 priority-charging app,60062,4.94
+T3 time-of-use tariff,24059,6.14

@@ -1,0 +1,24 @@
+,"PU-bagged XGBoost, α = 5% (5 seeds)"
+Segments (EV),"3,940 (394)"
+ROC-AUC,0.978 ± 0.001
+PR-AUC,0.889 ± 0.010
+Recall,0.797 ± 0.047
+False-positive rate,0.0171 ± 0.0069
+Precision at 10%,0.842 ± 0.045
+F1 at 10%,0.817 ± 0.010
+Precision restated at 5%,0.719 ± 0.068
+F1 restated at 5%,0.753 ± 0.022
+Precision restated at 2%,0.503 ± 0.083
+F1 restated at 2%,0.611 ± 0.052
+"Recall, T1 control (n=8)",0.800 ± 0.068
+"Recall, T1 demand management (n=134)",0.797 ± 0.056
+"Recall, T2 priority-charging app (n=134)",0.812 ± 0.026
+"Recall, T3 time-of-use tariff (n=118)",0.781 ± 0.068
+"Recall, 3.5 kW class (n=197)",0.705 ± 0.058
+"Recall, 7 kW class (n=197)",0.890 ± 0.040
+"FPR, Gas (n=1126)",0.0055 ± 0.0022
+"FPR, Mixed (n=154)",0.0130 ± 0.0046
+"FPR, Electric only (n=65)",0.1354 ± 0.0351
+"FPR, Other fuel (n=14)",0.0000 ± 0.0000
+"FPR, Unknown (n=210)",0.0124 ± 0.0087
+"FPR, No survey response (n=1977)",0.0207 ± 0.0093

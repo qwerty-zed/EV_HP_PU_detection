@@ -1,0 +1,25 @@
+HP_J_T1  LCL_EoH_join_v6,Training (arm N),Transfer (arm D)
+Households,"4,005","1,021"
+  with a heat pump (positives),599,126
+    prevalence,15.0%,12.3%
+    hosted by a house,568,114
+    hosted by a flat,31,12
+    Air source,202,103
+    High-temp. air source,223,8
+    Ground source,26,11
+    Hybrid (HP + boiler),148,4
+  without a heat pump (negatives),"3,406",895
+    Gas,697,525
+    Mixed,174,75
+    Electric only,93,59
+    Other fuel,8,4
+    Unknown,214,135
+    No survey response,"2,220",97
+Heat-pump household-days,"216,827","45,230"
+"  temperature gap, median (°C)",0.067,0.060
+"  temperature gap, 90th percentile (°C)",0.72,0.85
+  days with a gap over 1 °C,8.2%,9.2%
+  days using a capped heat-pump day (fallback),972 (40 households),139 (9 households)
+"  dates dropped, no candidate day",907 (0.4%),529 (1.2%)
+  heat-pump days interpolated (44–47 slots),796,202
+Leak audit: temperature-only ROC-AUC,0.511,0.494

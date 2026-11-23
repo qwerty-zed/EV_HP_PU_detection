@@ -1,0 +1,13 @@
+"EV_PU_T4  Rule-based detector against the PU classifier, test segments",Rule-based detector,"PU-bagged, α = 5% (5 seeds)","Naive, α = 5% (5 seeds)","Oracle, α = 5% (5 seeds)"
+Recall,0.251,0.797 ± 0.047,0.883 ± 0.006,0.862 ± 0.009
+False-positive rate,0.0023,0.0171 ± 0.0069,0.0359 ± 0.0053,0.0259 ± 0.0049
+Precision at 10%,0.925,0.842 ± 0.045,0.733 ± 0.029,0.788 ± 0.031
+F1 at 10%,0.395,0.817 ± 0.010,0.801 ± 0.016,0.823 ± 0.014
+Precision restated at 5%,0.854,0.719 ± 0.068,0.566 ± 0.038,0.639 ± 0.043
+F1 restated at 5%,0.388,0.753 ± 0.022,0.689 ± 0.026,0.733 ± 0.025
+"Recall, 3.5 kW class",0.000,0.705 ± 0.058,–,–
+"Recall, 7 kW class",0.503,0.890 ± 0.040,–,–
+"Recall, T1 control",0.375,0.800 ± 0.068,–,–
+"Recall, T1 demand management",0.261,0.797 ± 0.056,–,–
+"Recall, T2 priority-charging app",0.231,0.812 ± 0.026,–,–
+"Recall, T3 time-of-use tariff",0.254,0.781 ± 0.068,–,–

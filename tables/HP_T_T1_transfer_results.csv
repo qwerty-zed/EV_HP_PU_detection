@@ -1,0 +1,26 @@
+"HP_T_T1  Saved heat-pump classifiers (α = 2%, 5 runs) on the Arm N Test and the Arm D Transfer",Arm N Test,Arm D Transfer
+Households,"1,201","1,021"
+  with a heat pump,179,126
+  prevalence,14.9%,12.3%
+Threshold,3.090 ± 0.572,3.090 ± 0.572
+ROC-AUC,0.980 ± 0.003,0.987 ± 0.002
+"PR-AUC, at this prevalence",0.925 ± 0.008,0.917 ± 0.018
+Recall,0.645 ± 0.110,0.676 ± 0.157
+False-positive rate,0.0053 ± 0.0030,0.0098 ± 0.0054
+"Precision, at this prevalence",0.958 ± 0.021,0.914 ± 0.041
+"F1, at this prevalence",0.765 ± 0.081,0.765 ± 0.109
+"Precision, restated at 5%",0.875 ± 0.059,0.804 ± 0.089
+"F1, restated at 5%",0.734 ± 0.067,0.717 ± 0.086
+"Precision, restated at 2%",0.737 ± 0.111,0.627 ± 0.151
+"F1, restated at 2%",0.675 ± 0.048,0.622 ± 0.047
+"Best possible F1, restated at 5% (reference only)",0.785 ± 0.025,0.784 ± 0.020
+"Recall, air source",0.776 ± 0.096 (n=67),0.755 ± 0.167 (n=103)
+"Recall, high-temp. air source",0.766 ± 0.135 (n=64),0.675 ± 0.190 (n=8)
+"Recall, ground source",0.440 ± 0.134 (n=10),0.073 ± 0.076 (n=11)
+"Recall, hybrid",0.263 ± 0.104 (n=38),0.300 ± 0.209 (n=4)
+"FPR, Gas",0.004 ± 0.002 (n=209),0.002 ± 0.001 (n=525)
+"FPR, Mixed",0.000 ± 0.000 (n=53),0.027 ± 0.016 (n=75)
+"FPR, Electric only",0.007 ± 0.016 (n=28),0.095 ± 0.052 (n=59)
+"FPR, Other fuel",0.000 ± 0.000 (n=2),0.000 ± 0.000 (n=4)
+"FPR, Unknown",0.000 ± 0.000 (n=64),0.000 ± 0.000 (n=135)
+"FPR, No survey response",0.007 ± 0.004 (n=666),0.002 ± 0.005 (n=97)

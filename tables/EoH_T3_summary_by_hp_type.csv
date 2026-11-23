@@ -1,0 +1,8 @@
+,Air source,High-temp. air source,Ground source,Hybrid (HP + boiler),All types
+Properties,298,229,36,143,706
+Property-days,"215,293","155,039","19,990","98,999","489,321"
+Winter kWh/day (mean),20.9,22.0,11.5,8.3,18.3
+Summer kWh/day (mean),3.2,3.1,2.3,0.8,2.7
+Winter/summer ratio (median home),6.39,7.23,4.70,11.83,7.02
+"beta_temp, kWh/day/°C (median home)",-1.68,-1.83,-0.58,-0.41,-1.48
+"Balance point, °C (median home)",12.8,12.6,14.6,16.2,13.2

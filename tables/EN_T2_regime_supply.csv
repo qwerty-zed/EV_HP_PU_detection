@@ -1,0 +1,6 @@
+,Chargers,Median longest run (days),Maximum run (days),Chargers with a run >= 14 days,Chargers with a run >= 21 days,Chargers with a run >= 28 days,Chargers with a run >= 56 days,Linkage supply (one 21-day segment per charger and regime),All non-overlapping 21-day blocks
+T1 control,59,21.0,49.0,32,32,9,0,32,41
+T1 demand management,468,171.0,501.0,466,463,458,420,463,3829
+T2 priority-charging app,496,133.0,190.0,490,489,487,463,489,2629
+T3 time-of-use tariff,479,67.0,68.0,462,451,427,274,451,999
+"Total, four linkage regimes",1502,,,1450,1435,1381,1157,1435,7498

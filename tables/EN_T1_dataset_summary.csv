@@ -1,0 +1,11 @@
+,CrowdCharge,GreenFlux,All
+Chargers in meter file,284,301,585
+"Chargers in analysis set (>= 60-day window, >= 1 session)",273,285,558
+Raw meter rows,"27,346,192","8,359,844","35,706,036"
+Charging sessions,"65,342","66,828","132,170"
+Date range (GMT),2017-03-04 to 2018-12-16,2017-01-13 to 2018-12-16,2017-01-13 to 2018-12-16
+Native record,one row per minute while a car is connected,"one row per 15-minute block, every charger, always",
+Quantity recorded,"current drawn, MaxAmpsUsed (A)","mean current over the block, Avg_Amps_Drawn (A)",
+Median observation window (days),365,378,371
+Total charging energy (MWh),518,516,1034
+Survey participants,323,336,660

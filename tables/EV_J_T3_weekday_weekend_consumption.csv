@@ -1,0 +1,8 @@
+EV_J_T3  Weekday and weekend consumption per 21-day segment,T1 control,T1,T2,T3,All EV,No EV
+Segments,28,459,473,418,"1,378","6,546"
+"Weekday kWh/day, mean",13.1,16.8,15.6,17.8,16.6,9.9
+"Weekend kWh/day, mean",12.5,16.6,15.3,17.4,16.3,10.4
+"Weekend/weekday ratio, median segment",0.92,0.97,0.99,0.99,0.98,1.04
+"Evening share (16:00–22:00), mean",40.7%,37.0%,37.9%,33.3%,36.3%,35.4%
+"Overnight share (22:00–07:00), mean",29.4%,30.6%,30.2%,36.0%,32.1%,26.1%
+"Added EV kWh/day, median",4.8,4.6,4.4,5.4,4.8,-

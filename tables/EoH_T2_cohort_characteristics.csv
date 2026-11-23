@@ -1,0 +1,20 @@
+Attribute,Level,E.ON n,E.ON %,Warmworks n,Warmworks %,OVO n,OVO %,All n,All %
+Dwelling type,House,272,94.8%,279,94.6%,112,90.3%,663,93.9%
+Dwelling type,Flat,15,5.2%,9,3.1%,12,9.7%,36,5.1%
+Dwelling type,Maisonette,0,0.0%,4,1.4%,0,0.0%,4,0.6%
+Dwelling type,Not recorded,0,0.0%,3,1.0%,0,0.0%,3,0.4%
+Dwelling form,Detached,108,37.6%,130,44.1%,54,43.5%,292,41.4%
+Dwelling form,Semi-Detached,122,42.5%,81,27.5%,38,30.6%,241,34.1%
+Dwelling form,Mid-Terrace,28,9.8%,37,12.5%,14,11.3%,79,11.2%
+Dwelling form,End-Terrace,14,4.9%,35,11.9%,7,5.6%,56,7.9%
+Dwelling form,Flat,15,5.2%,12,4.1%,11,8.9%,38,5.4%
+Heat-pump type,Air source,69,24.0%,128,43.4%,101,81.5%,298,42.2%
+Heat-pump type,High-temp. air source,81,28.2%,140,47.5%,8,6.5%,229,32.4%
+Heat-pump type,Ground source,15,5.2%,10,3.4%,11,8.9%,36,5.1%
+Heat-pump type,Hybrid (HP + boiler),122,42.5%,17,5.8%,4,3.2%,143,20.3%
+Heating replaced,Gas Boiler - Combi,220,76.7%,126,42.7%,36,29.0%,382,54.1%
+Heating replaced,Gas Boiler - Standard,34,11.8%,100,33.9%,42,33.9%,176,24.9%
+Heating replaced,Electric - Storage,19,6.6%,25,8.5%,17,13.7%,61,8.6%
+Heating replaced,Oil Boiler,0,0.0%,10,3.4%,15,12.1%,25,3.5%
+Heating replaced,Electric - Direct,0,0.0%,19,6.4%,4,3.2%,23,3.3%
+Heating replaced,Other,14,4.9%,15,5.1%,10,8.1%,39,5.5%
